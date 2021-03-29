@@ -6,10 +6,12 @@ export default function NavBar() {
 
   return (
     <div className="h-12 w-screen flex items-center justify-between px-20 shadow-xl">
-      <div className="my__name flex text-lg">
-        <p className="font-light">Joaquin</p>
-        <p className="font-bold">Mancheno</p>
-      </div>
+      <Link href="/">
+        <div className="my__name flex text-lg" style={{ cursor: "pointer" }}>
+          <p className="font-light">Joaquin</p>
+          <p className="font-bold">Mancheno</p>
+        </div>
+      </Link>
       <div className="options flex space-x-12  text-sm">
         <div
           className={

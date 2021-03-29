@@ -24,7 +24,7 @@ export default function Home() {
           <p>!</p>
         </motion.div>
       </AnimatePresence>
-      <div className="aboutMe mt-10 tracking-widest text-md">
+      <div className="aboutMe mt-14 tracking-widest text-md">
         <p>
           I'm Joaquin I'm a front end developer and a senior at College of
           Charleston majoring in Computing in the Arts and minoring in computing
@@ -34,7 +34,7 @@ export default function Home() {
           the internet for new music.
         </p>
       </div>
-      <div className="mediaLinks mt-8 flex space-x-8">
+      <div className="mediaLinks mt-16 flex space-x-8">
         <Link href="https://github.com/JoaquinManchenoP">
           <div className="github flex space-x-2" style={{ cursor: "pointer" }}>
             <FaGithub size={28} />
@@ -56,22 +56,28 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="projectSection flex h-52  justify-between mt-12 px-16">
+      <div className="projectSection flex h-52  justify-between mt-20 px-16 space-x-12">
         <Link href="/Projects">
           <div
-            className="projects text-md font-semibold"
+            className="projects text-md font-semibold  w-1/2 "
             style={{ cursor: "pointer" }}
           >
             <h1>Projects > </h1>
+            <div className="section_description font-light text-sm tracking-wides pt-4 ">
+              <p>A Collection of my college and personal software projects.</p>
+            </div>
           </div>
         </Link>
 
         <Link href="/Education">
           <div
-            className="education text-md font-semibold"
+            className="education text-md font-semibold w-1/2  "
             style={{ cursor: "pointer" }}
           >
             <h1>Education ></h1>
+            <div className="section_descripion font-light text-sm tracking-wides pt-4 ">
+              <h1>Take a look at my Education and my experience.</h1>
+            </div>
           </div>
         </Link>
       </div>
