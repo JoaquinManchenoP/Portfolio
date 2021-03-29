@@ -9,7 +9,7 @@ export default function NavBar() {
       <Link href="/">
         <div className="my__name flex text-lg" style={{ cursor: "pointer" }}>
           <p className="font-light">Joaquin</p>
-          <p className="font-bold">Mancheno</p>
+          <p className="font-bold text-xl">Mancheno</p>
         </div>
       </Link>
       <div className="options flex space-x-12  text-sm">

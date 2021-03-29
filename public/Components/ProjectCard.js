@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 export default function ProjectCard({
   projectName,
   description,
@@ -26,15 +27,25 @@ export default function ProjectCard({
           <p>{technologies}</p>
           <div className="buttons flex space-x-4">
             <Link href={githubRepo}>
-              <button className="h-8 w-20 rounded-lg shadow-xl border-2 border-black">
+              <motion.button
+                initial={{ scale: 1 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="h-8 w-20 rounded-lg shadow-xl border-2 border-black"
+              >
                 Code
-              </button>
+              </motion.button>
             </Link>
 
             <Link href={demoLink}>
-              <button className="h-8 w-20 rounded-lg shadow-xl bg-black text-white font-light">
+              <motion.button
+                initial={{ scale: 1 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="h-8 w-20 rounded-lg shadow-xl bg-black text-white font-light"
+              >
                 Demo
-              </button>
+              </motion.button>
             </Link>
           </div>
         </div>

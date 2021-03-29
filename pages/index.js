@@ -36,7 +36,10 @@ export default function Home() {
       </div>
       <div className="mediaLinks mt-16 flex space-x-8">
         <Link href="https://github.com/JoaquinManchenoP">
-          <div className="github flex space-x-2" style={{ cursor: "pointer" }}>
+          <div
+            className="github flex space-x-2 text-purple-800"
+            style={{ cursor: "pointer" }}
+          >
             <FaGithub size={28} />
             <div className="githubText text-sm font-bold pt-1">
               <p>Github</p>
@@ -45,7 +48,7 @@ export default function Home() {
         </Link>
         <Link href="https://www.linkedin.com/in/joaquinjm/">
           <div
-            className="linkedIn flex  space-x-2"
+            className="linkedIn flex  space-x-2 text-blue-600"
             style={{ cursor: "pointer" }}
           >
             <FaLinkedin size={28} />
@@ -64,19 +67,22 @@ export default function Home() {
           >
             <h1>Projects > </h1>
             <div className="section_description font-light text-sm tracking-wides pt-4 ">
-              <p>A Collection of my college and personal software projects.</p>
+              <p>
+                A Collection o of the projects I've built on the road to
+                becoming a software developer
+              </p>
             </div>
           </div>
         </Link>
 
-        <Link href="/Education">
+        <Link href="https://drive.google.com/file/d/1Y68K0j3Zt-AZsbXOpCA2ER3I3OvA6N16/view?usp=sharing">
           <div
             className="education text-md font-semibold w-1/2  "
             style={{ cursor: "pointer" }}
           >
-            <h1>Education ></h1>
+            <h1>Resume ></h1>
             <div className="section_descripion font-light text-sm tracking-wides pt-4 ">
-              <h1>Take a look at my Education and my experience.</h1>
+              <h1>Take a look or download my resume.</h1>
             </div>
           </div>
         </Link>
