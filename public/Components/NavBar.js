@@ -5,10 +5,13 @@ export default function NavBar() {
   const router = useRouter();
 
   return (
-    <div className="h-12 w-screen flex items-center justify-between px-20 shadow-xl">
+    <div className="h-12 w-screen flex items-center justify-between px-20 xs:px-7 sm:px-20 shadow-xl">
       <Link href="/">
-        <div className="my__name flex text-lg" style={{ cursor: "pointer" }}>
-          <p className="font-light">Joaquin</p>
+        <div
+          className="my__name flex text-lg xxs:text-transparent xs:text-black  "
+          style={{ cursor: "pointer" }}
+        >
+          <p className="font-light  ">Joaquin</p>
           <p className="font-bold text-xl">Mancheno</p>
         </div>
       </Link>
