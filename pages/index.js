@@ -26,7 +26,7 @@ export default function Home() {
       </AnimatePresence>
       <div className="aboutMe mt-14 tracking-widest text-md">
         <p>
-          I'm Joaquin I'm a front end developer and a senior in the computer
+          I'm Joaquin, I'm a front end developer and a senior in the computer
           science department at the College of Charleston majoring in Computing
           in the Arts and minoring in computing information systems and
           communication.I would describe myself as apasionate developer and
