@@ -26,12 +26,13 @@ export default function Home() {
       </AnimatePresence>
       <div className="aboutMe mt-14 tracking-widest text-md">
         <p>
-          I'm Joaquin I'm a front end developer and a senior at College of
-          Charleston majoring in Computing in the Arts and minoring in computing
-          information systems and communication.I would describe myself as
-          apasionate developer and someone who's always looking to improve. In
-          my free time I like to travel, play the guitar and endlessly search
-          the internet for new music.
+          I'm Joaquin I'm a front end developer and a senior in the computer
+          science department at the College of Charleston majoring in Computing
+          in the Arts and minoring in computing information systems and
+          communication.I would describe myself as apasionate developer and
+          someone who's always looking to improve. In my free time I like to
+          travel, play the guitar and endlessly search the internet for new
+          music.
         </p>
       </div>
       <div className="mediaLinks mt-16 flex space-x-8">
