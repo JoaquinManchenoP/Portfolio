@@ -35,7 +35,7 @@ export default function Projects() {
       </div>
       <div className="movieWatchlist">
         <ProjectCard
-          projectName="Blog"
+          projectName="Movie Watch List"
           description="A movie watchlist app that allows users to search movies as well as adding and removing movies from their watchlist"
           technologies="React.js, Firebase"
           githubRepo="https://github.com/JoaquinManchenoP/react-movie-app/tree/master/react-movie-app"
