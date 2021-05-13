@@ -13,16 +13,17 @@ export default function Projects() {
           projectImage="videoGameProject"
         />
       </div>
-      <div className="amazonClone">
+      <div className="Salesforce covid capacity manager">
         <ProjectCard
-          projectName="Amazon Clone"
-          description="An app that mimics the design and basic functionality of amazon.com"
-          technologies="React.js, Firebase"
-          githubRepo="https://github.com/JoaquinManchenoP/amazon-clone-project"
-          demoLink="https://clone-project-80839.firebaseapp.com"
-          projectImage="amazonClone"
+          projectName="Covid Capacity Manager"
+          description="Built a salesforce app which allows users and store managers to manage clients, create appointments and give the costumer an estimated wait time depending on the capacity of the store. The app was part of my college capstone project for the company capgemini"
+          technologies="Salesforce"
+          githubRepo="not"
+          demoLink="https://capgemini-capstone2021-developer-edition.na156.force.com/tracker/s/login/?ec=302&startURL=%2Ftracker%2Fs%2F"
+          projectImage="capgemini"
         />
       </div>
+
       <div className="blogProject">
         <ProjectCard
           projectName="Blog"
@@ -41,6 +42,16 @@ export default function Projects() {
           githubRepo="https://github.com/JoaquinManchenoP/react-movie-app/tree/master/react-movie-app"
           demoLink="https://react-movie-app-f0d0c.web.app/?"
           projectImage="watchlist"
+        />
+      </div>
+      <div className="amazonClone">
+        <ProjectCard
+          projectName="Amazon Clone"
+          description="An app that mimics the design and basic functionality of amazon.com"
+          technologies="React.js, Firebase"
+          githubRepo="https://github.com/JoaquinManchenoP/amazon-clone-project"
+          demoLink="https://clone-project-80839.firebaseapp.com"
+          projectImage="amazonClone"
         />
       </div>
     </div>

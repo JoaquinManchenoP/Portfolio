@@ -5,53 +5,40 @@ export default function NavBar() {
   const router = useRouter();
 
   return (
-    <div className="h-12 w-screen flex items-center justify-between px-20 xs:px-7 sm:px-20 shadow-xl">
-      <Link href="/">
-        <div
-          className="my__name flex text-lg xxs:text-transparent xs:text-black  "
-          style={{ cursor: "pointer" }}
-        >
-          <p className="font-light  ">Joaquin</p>
-          <p className="font-bold text-xl">Mancheno</p>
-        </div>
-      </Link>
-      <div className="options flex space-x-12  text-sm">
-        <div
-          className={
-            router.pathname == "/"
-              ? "  font-semibold text-base "
-              : "font-light no-underline"
-          }
-          style={{ cursor: "pointer" }}
-        >
-          <Link href="/">
-            <p>About Me</p>
-          </Link>
-        </div>
-        <div
-          style={{ cursor: "pointer" }}
-          className={
-            router.pathname == "/Projects"
-              ? "font-semibold text-base"
-              : "font-light no-underline"
-          }
-        >
-          <Link href="/Projects">
-            <p>Projects</p>
-          </Link>
-        </div>
-        <div
-          className={
-            router.pathname == "/Contact"
-              ? "font-semibold text-base"
-              : "font-light no-underline"
-          }
-          style={{ cursor: "pointer" }}
-        >
-          <Link href="/Contact">
-            <p>Contact</p>
-          </Link>
-        </div>
+    <div className="h-12 w-screen flex items-center justify-between mt-2">
+      <div className="myName flex  text-xl w-1/2 ml-4">
+        <p className="font-bold">Joaquin</p>
+        <p className="font-light">Mancheno</p>
+      </div>
+      <div className="options flex space-x-4 w-1/2  items-end justify-end mr-4 font-light  ">
+        <Link href="/">
+          <p
+            className={router.pathname == "/" ? "font-bold" : "font-light"}
+            style={{ cursor: "pointer" }}
+          >
+            Home
+          </p>
+        </Link>
+        <Link href="/Projects ">
+          <p
+            className={
+              router.pathname == "/Projects" ? "font-bold" : "font-light"
+            }
+            style={{ cursor: "pointer" }}
+          >
+            Projects
+          </p>
+        </Link>
+        <Link href="/Contact">
+          <p
+            className={
+              router.pathname == "/Contact" ? "text-light" : "font-light"
+            }
+            style={{ cursor: "pointer" }}
+          >
+            Contact
+          </p>
+        </Link>
       </div>
     </div>
   );

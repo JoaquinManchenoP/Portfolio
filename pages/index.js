@@ -26,13 +26,12 @@ export default function Home() {
       </AnimatePresence>
       <div className="aboutMe mt-14 tracking-widest text-md">
         <p>
-          I'm Joaquin, I'm a front end developer and a senior in the computer
-          science department at the College of Charleston majoring in Computing
-          in the Arts and minoring in computing information systems and
-          communication.I would describe myself as apasionate developer and
-          someone who's always looking to improve. In my free time I like to
-          travel, play the guitar and endlessly search the internet for new
-          music.
+          I'm Joaquin, I recently graduated from the computer science department
+          at the College of Charleston with a bachelors degree in Computing in
+          the Arts and a minor computing information systems and communication.I
+          would describe myself as apasionate developer and someone who's always
+          looking to improve. In my free time I like to travel, play the guitar
+          and endlessly search the internet for new music.
         </p>
       </div>
       <div className="mediaLinks mt-16 flex space-x-8">
@@ -69,14 +68,14 @@ export default function Home() {
             <h1>Projects > </h1>
             <div className="section_description font-light text-sm tracking-wides pt-4 ">
               <p>
-                A Collection o of the projects I've built on the road to
-                becoming a software developer
+                A Collection o of the projects I've built on my journey to
+                becoming a software developer.
               </p>
             </div>
           </div>
         </Link>
 
-        <Link href="https://drive.google.com/file/d/1Y68K0j3Zt-AZsbXOpCA2ER3I3OvA6N16/view?usp=sharing">
+        <Link href="https://drive.google.com/file/d/1J_wlnvyTToDc5Y8rNEesnz6Q-dYSmrkA/view?usp=sharing">
           <div
             className="education text-md font-semibold w-1/2  "
             style={{ cursor: "pointer" }}
