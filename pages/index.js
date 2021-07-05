@@ -68,14 +68,14 @@ export default function Home() {
             <h1>Projects > </h1>
             <div className="section_description font-light text-sm tracking-wides pt-4 ">
               <p>
-                A Collection o of the projects I've built on my journey to
-                becoming a software developer.
+                A Collectionc projects I've built on my journey to becoming a
+                software developer.
               </p>
             </div>
           </div>
         </Link>
 
-        <Link href="https://drive.google.com/file/d/1J_wlnvyTToDc5Y8rNEesnz6Q-dYSmrkA/view?usp=sharing">
+        <Link href="https://drive.google.com/file/d/19uz8PT0gQvWUVC1uUpl-FTxOau2IOh43/view?usp=sharing">
           <div
             className="education text-md font-semibold w-1/2  "
             style={{ cursor: "pointer" }}

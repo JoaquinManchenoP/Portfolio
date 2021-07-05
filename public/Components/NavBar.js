@@ -5,7 +5,7 @@ export default function NavBar() {
   const router = useRouter();
 
   return (
-    <div className="h-12 w-screen flex items-center justify-between mt-2">
+    <div className="h-12 w-screen flex items-center justify-between mt-2∫">
       <div className="myName flex  text-xl w-1/2 ml-4">
         <p className="font-bold">Joaquin</p>
         <p className="font-light">Mancheno</p>
