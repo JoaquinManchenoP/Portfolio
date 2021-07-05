@@ -68,7 +68,7 @@ export default function Home() {
             <h1>Projects > </h1>
             <div className="section_description font-light text-sm tracking-wides pt-4 ">
               <p>
-                A Collectionc projects I've built on my journey to becoming a
+                A Collection of projects I've built on my journey to becoming a
                 software developer.
               </p>
             </div>
