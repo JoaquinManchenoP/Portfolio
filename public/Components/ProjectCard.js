@@ -8,6 +8,7 @@ export default function ProjectCard({
   githubRepo,
   demoLink,
   projectImage,
+  availableDemo
 }) {
   console.log(projectImage);
   return (
@@ -25,6 +26,7 @@ export default function ProjectCard({
         <div className="gameDescription ml-10 space-y-4 w-1/2">
           <p>{description}</p>
           <p>{technologies}</p>
+          {availableDemo ? 
           <div className="buttons flex space-x-4">
             <Link href={githubRepo}>
               <motion.button
@@ -48,6 +50,18 @@ export default function ProjectCard({
               </motion.button>
             </Link>
           </div>
+          : 
+          <Link href={demoLink}>
+            <motion.button
+            initial={{ scale: 1 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="h-8 w-20 rounded-lg shadow-xl bg-black text-white font-light"
+           >
+            Website
+          </motion.button>
+        </Link>
+          }
         </div>
       </div>
     </div>
