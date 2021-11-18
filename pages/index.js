@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </Link>
 
-        <Link href="https://drive.google.com/file/d/19uz8PT0gQvWUVC1uUpl-FTxOau2IOh43/view?usp=sharing">
+        <Link href="https://drive.google.com/file/d/1Y-K5KJeO1sQqHytXNvLpC10nTjR5siqc/view?usp=sharing">
           <div
             className="education text-md font-semibold w-1/2  "
             style={{ cursor: "pointer" }}
