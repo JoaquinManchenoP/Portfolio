@@ -66,7 +66,7 @@ export default function Home() {
             className="projects text-md font-semibold  w-1/2 "
             style={{ cursor: "pointer" }}
           >
-            <h1>Projects >> </h1>
+            <h1>Projects ></h1>
             <div className="section_description font-light text-sm tracking-wides pt-4 ">
               <p>
                 A Collection of projects I've built on my journey to becoming a
@@ -76,12 +76,12 @@ export default function Home() {
           </div>
         </Link>
 
-        <Link href="https://drive.google.com/file/d/1Y_1Hr1tZbWCIfv90UOy5rANrXd5qZgl3/view?usp=sharing">
+        <Link href="https://drive.google.com/file/d/1OfORIGVOElC6sK80bDQALGktB8FS-Fyn/view?usp=sharing">
           <div
             className="education text-md font-semibold w-1/2  "
             style={{ cursor: "pointer" }}
           >
-            <h1>Resume >></h1>
+            <h1>Resume ></h1>
             <div className="section_descripion font-light text-sm tracking-wides pt-4 ">
               <h1>Take a look or download my resume.</h1>
             </div>
